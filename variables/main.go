@@ -6,7 +6,9 @@ func main() {
 	var a = "initial"
 	fmt.Println(a)
 
-	var b, c int = 1, 2
+	// NOTE: we need to think about what type of int we need to improving the memory use in our app
+	// it can be int8/ int16/ int32/ int64
+	var b, c int8 = 1, 2
 	fmt.Println(b, c)
 
 	var d = true
